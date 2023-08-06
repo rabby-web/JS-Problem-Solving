@@ -1,4 +1,7 @@
 function minGame(x){
+    // if(typeof x !== "number" || x <= 0){
+    //     return "please give provide a number and positive number";
+    // }
     if(typeof x !== "number"){
         return "please give provide a number";
     }
@@ -6,7 +9,7 @@ function minGame(x){
         return "please give provide a positive number";
     }
     else{
-        const result = (((x * 3) + 10) / 2)-5;
+        const result = (((x * 3) + 10) / 2) -5;
         return result;
     }
 }
